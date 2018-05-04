@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC  "-//Hibernate/Hibernate Mapping DTD//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.tdd.di.core.Segment" table="includesuavt">
+		<id name="id" column="id">
+			<generator class="native" />
+		</id>
+		<property name="uavtStreetCode" type="string" />
+		<property name="name" type="string" />
+		<property name="startLongitude" type="string" />
+		<property name="startLatitute" type="string" />
+		<property name="centerLongitude" type="string" />
+		<property name="centerLatitute" type="string" />
+		<property name="endLongitude" type="string" />
+		<property name="endLatitute" type="string" />
+		<property name="town" type="string" />
+		<property name="city" type="string" />
+	</class>
+</hibernate-mapping>
